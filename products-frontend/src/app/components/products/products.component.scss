@@ -1,0 +1,33 @@
+
+
+.search-field {
+    min-width: 180px;
+    width: 100%;
+    max-width: 420px
+}
+
+.table-wrapper {
+  background: transparent;
+  border-radius: 12px;
+  overflow: auto
+}
+
+.action-buttons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+th.mat-column-actions,
+td.mat-column-actions {
+  text-align: right;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.new-product-row {
+  display: flex;
+  gap: 8px;
+  align-items: center
+}

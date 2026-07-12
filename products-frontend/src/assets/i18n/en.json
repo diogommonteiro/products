@@ -1,0 +1,17 @@
+{
+    "CHANGELANGUAGE": "Change language",
+    "ERROR_TITLE": "Error",
+    "OK": "OK",
+    "APP_TITLE": "Products",
+    "LANG_PT": "Português",
+    "LANG_EN": "English",
+    "OVERVIEW": "Overview",
+    "WELCOME": "Welcome to your dashboard",
+    "TABLESUMMARY": "A simple table with your latest inventory items.",
+    "FAILEDLOADPRODUCTS": "Failed to load products.",
+    "SEARCHBYNAME": "Search by name",
+    "SEARCHPLACEHOLDER": "Search products...",
+    "PRODUCTNAME": "Product name",
+    "STOCK": "Stock",
+    "ACTIONS": "Actions"
+}

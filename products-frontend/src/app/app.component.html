@@ -1,0 +1,25 @@
+<div class="page">
+  <header class="topbar">
+    <div class="overview">
+      <p class="welcome">{{ 'OVERVIEW' | translate }}</p>
+      <h1>{{ 'WELCOME' | translate }}</h1>
+      <p class="subtitle">{{ 'TABLESUMMARY' | translate }}</p>
+    </div>
+
+    <div class="change-language">
+      <button mat-icon-button [matMenuTriggerFor]="menu" [attr.aria-label]="'CHANGELANGUAGE' | translate">
+        <mat-icon>language</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item [class.active-lang]="isLanguageActive('pt')" (click)="changeLang('pt')">
+          <span>{{ 'LANG_PT' | translate }}</span>
+        </button>
+        <button mat-menu-item [class.active-lang]="isLanguageActive('en')" (click)="changeLang('en')">
+          <span>{{ 'LANG_EN' | translate }}</span>
+        </button>
+      </mat-menu>
+    </div>
+  </header>
+
+  <router-outlet></router-outlet>
+</div>

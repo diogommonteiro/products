@@ -1,0 +1,17 @@
+{
+    "CHANGELANGUAGE": "Mudar idioma",
+    "ERROR_TITLE": "Erro",
+    "OK": "OK",
+    "APP_TITLE": "Products",
+    "LANG_PT": "Português",
+    "LANG_EN": "English",
+    "OVERVIEW": "Visão geral",
+    "WELCOME": "Bem-vindo ao seu painel",
+    "TABLESUMMARY": "Uma tabela simples com os seus últimos itens de inventário.",
+    "FAILEDLOADPRODUCTS": "Falha ao carregar os produtos.",
+    "SEARCHBYNAME": "Pesquisar por nome",
+    "SEARCHPLACEHOLDER": "Pesquisar produtos...",
+    "PRODUCTNAME": "Nome do produto",
+    "STOCK": "Stock",
+    "ACTIONS": "Ações"
+}

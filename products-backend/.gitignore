@@ -1,0 +1,80 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+[Bb]in/
+[Oo]bj/
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+package-lock.json.bak
+
+# .NET / Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dtbcache*
+*.futdcache*
+*.vsidx
+DocumentLayout.json
+DocumentLayout.backup.json
+applicationhost.config
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebug[Pp]ublish/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]uild/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Angular
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# Rider (JetBrains)
+.idea/
+*.iml
+
+# Environment / secrets
+.env
+.env.local
+appsettings.*.local.json
+appsettings.Development.json
+
+# System files
+.DS_Store
+Thumbs.db
